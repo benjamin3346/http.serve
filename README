@@ -1,0 +1,6 @@
+Penjelasan:
+%~dp0 otomatis ambil path tempat file .bat berada → jadi walaupun di drive R, akan tetap jalan dari situ.
+
+cd /d memastikan bisa pindah drive (dari C ke R, dll)
+CONTOH: jika kamu menempatkan script tadi di drive d ketika kamu menjalankan script tadi maka yang terekpose adalah drive d
+jika kamu ingin mengganti lokasi mana yang akan terekpose oleh python -m http.server 60 maka kamu ganti %~dp0 dengan lokasi yang akan di ekspose
